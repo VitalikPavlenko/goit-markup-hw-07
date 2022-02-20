@@ -16,10 +16,10 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-}
 
-.email::placeholder {
-  color: $text-kontact-footer;
+  &::placeholder {
+    color: $text-kontact-footer;
+  }
 }
 
 .subscribe-btn {
@@ -36,6 +36,17 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+
+  &:hover,
+  &:focus {
+    background-color: $background-wheit-color;
+    color: $accent-color;
+  }
+
+  &:hover .subscribe-icon-svg,
+  &:focus .subscribe-icon-svg {
+    fill: $accent-color;
+  }
 }
 
 .subscribe-icon-svg {
@@ -45,15 +56,4 @@
   margin-left: 10px;
   fill: $primary-white-color;
   transition: fill $animation;
-}
-
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-  background-color: $background-wheit-color;
-  color: $accent-color;
-}
-
-.subscribe-btn:hover .subscribe-icon-svg,
-.subscribe-btn:focus .subscribe-icon-svg {
-  fill: $accent-color;
 }

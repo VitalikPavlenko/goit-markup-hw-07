@@ -1,24 +1,23 @@
-@import "./base/_reset";
-@import "./base/_common";
+@import "./utils/variables";
+@import "./utils/hidden";
 
-@import "./utils/_variables";
-@import "./utils/_hidden";
+@import "./base/reset";
+@import "./base/common";
 
-@import "./components/_container";
-@import "./components/_logo";
-@import "./components/_pre-title";
-@import "./components/_title";
-@import "./components/_btn";
-@import "./components/_modal";
+@import "./components/container";
+@import "./components/logo";
+@import "./components/btn";
+@import "./components/person-card";
+@import "./components/soc-link-list";
+@import "./components/modal";
 
-@import "./layout/_header";
-@import "./layout/_hero";
-@import "./layout/_about";
-@import "./layout/_field";
-@import "./layout/_person-comand";
-@import "./layout/_clients";
-@import "./layout/_gallery";
-@import "./layout/_portfolio-gallery";
-@import "./layout/_subscribe";
-@import "./layout/_footer";
-@import "./layout/_footer-links";
+@import "./layout/header";
+@import "./layout/hero";
+@import "./layout/about";
+@import "./layout/field";
+@import "./layout/person-comand";
+@import "./layout/clients";
+@import "./layout/portfolio-gallery";
+@import "./layout/subscribe";
+@import "./layout/footer";
+@import "./layout/footer-links";
